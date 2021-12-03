@@ -1,0 +1,43 @@
+<ion-content>
+  <div class="login-form">
+    <div class="container-header">
+    </div>
+    <div class="false-container"></div>
+    <ion-grid>
+      
+      <ion-row class="ion-justify-content-center">
+        <div class="ion-align-items-center">
+          <h3>Login</h3>
+        </div>
+        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+          <div class="ion-padding">
+            <ion-item>
+              <ion-input type="text" placeholder="Nombre de Usuario"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input type="password" placeholder="Contraseña"></ion-input>
+            </ion-item>
+          </div>
+        </ion-col>
+        <div class="ion-padding">
+          <ion-button (click)="onClick()" expand="block" fill="solid" shape="round" color="primary">
+            Iniciar sesion
+          </ion-button>
+        </div>
+      </ion-row>
+    </ion-grid>
+    <ion-footer class="center">
+      <div class="row">
+        <ion-button (click)="onClick()" expand="fill" fill="clear" shape="round" size="small" color="dark">
+          Perdiste tu contraseña?
+        </ion-button>
+      </div>
+      <div class="row">
+        <ion-button (click)="onClick()" expand="fill" fill="clear" shape="round" size="small" color="dark">
+          No tienes cuenta? Registrate
+        </ion-button>
+      </div>
+  
+    </ion-footer>
+  </div>
+</ion-content>

@@ -1,0 +1,35 @@
+.container-header {
+    position: fixed;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url('/src/assets/login/norte.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 300px;
+    width: 100%;
+}
+
+.false-container {
+    height: 200px;
+}
+
+
+ion-footer {
+    position: fixed;
+    bottom: 0;
+
+    height: 80px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
